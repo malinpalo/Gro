@@ -3,7 +3,9 @@
     background-color: #EFFFEB;
     min-height: 100vh;
 }
-
+.Main {
+    padding-top: 5rem;
+}
 * {
     box-sizing: border-box;
   }
