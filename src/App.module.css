@@ -1,0 +1,36 @@
+.App {
+    font-family: 'Poppins', sans-serif;
+    background-color: #EFFFEB;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  a {
+    color: #525252;
+    transition: color ease-in-out 0.2s;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:hover i {
+    color: #0B8806;
+    transition: color ease-in-out 0.2s;
+  }
+  
+  i {
+    color: #CAC9CF;
+    font-size: 1.6rem;
+    padding: 7px;
+    vertical-align: middle;
+  }
+  
+  i:hover {
+    cursor: pointer;
+    transition: color ease-in-out 0.3s;
+    color: #0B8806;
+  }
