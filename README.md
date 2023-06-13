@@ -46,7 +46,7 @@ The project also utilises a Django Rest Framework web API, the repository are to
     + [Post Edit page](#post-edit-page)
     + [Profile page](#profile-page)
     + [Edit Profile](#edit-profile)
-    + [Infinite Feed page](#infinite- feed-page)
+    + [Infinite Feed page](#infinite-feed-page)
     + [Liked Posts page](#liked-posts-page)
     + [Edit post and delete post buttons](#edit-event-and-delete-event-buttons)
     + [Add contact form](#add-contact-form)
@@ -61,9 +61,9 @@ The project also utilises a Django Rest Framework web API, the repository are to
     + [Success messages](#success-messages)
     + [Error messages](#error-messages)
     + [CRUD functionality](#crud-functionality)
-    + [Future improvements and features]
+    + [Future improvements and features](#future-improvements-and-features)
 
-  * [Frameworks, libraries and dependencies](#frameworks--libraries-and-dependencies)
+  * [Frameworks, libraries and dependencies](#frameworks-libraries-and-dependencies)
     + [React-Router-DOM](#react-router-dom)
     + [ReactDOM](#reactdom)
     + [Axios](#axios)
