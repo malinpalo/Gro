@@ -19,16 +19,14 @@ This is the repository for the React frontend of Gro.
 The project also utilises a Django Rest Framework web API, the repository are to be found [here]().
 
 #### DEPLOYED BACKEND API [LINK]()
-#### DEPLOYED FRONTEND [LINK - LIVE SITE]()
 #### DEPLOYED BACKEND [REPOSITORY]()
 
 
 ## Table of contents
 - [Gro](#gro)
   * [Project goals](#project-goals)
-  * [Table of content](#table-of-content)
+  * [Table of contents](#table-of-contents)
   * [User stories](#user-stories)
-    + [Themes](#themes)
     + [Epics](#epics)
     + [User stories](#user-stories-1)
   * [Agile development methodology](#agile-development-methodology)
@@ -85,3 +83,17 @@ The project also utilises a Django Rest Framework web API, the repository are to
   * [Credits](#credits)
     + [Code](#code)
     + [Media](#media)
+
+## User stories
+User stories where made on an kanbanboard on Gitpod. User stories where created in the initial design phase based on my wireframes.
+User stories required to implement each epic were created. These were categorised according to whether they were 'must have' features required to implement a Minimum Viable Product (MVP). [Gro GitHub Issues](https://github.com/issues).
+
+
+### Epics
+Epics where created to be able to organize userstories and time used for each user story. [Gro GitHub Epics](https://github.com/malinpalo?tab=projects).
+
+-
+ -
+
+
+
