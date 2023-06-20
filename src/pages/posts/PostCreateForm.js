@@ -87,7 +87,7 @@ function PostCreateForm() {
       ))}
 
       <Form.Group>
-        <Form.Label>Content</Form.Label>
+        <Form.Label>Description</Form.Label>
         <Form.Control
           as="textarea"
           rows={6}
@@ -143,7 +143,7 @@ function PostCreateForm() {
                 >
                   <Asset
                     src={Upload}
-                    message="Click or tap to upload an image"
+                    message="Click or tap if you wish to upload an image"
                   />
                 </Form.Label>
               )}
