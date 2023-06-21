@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from "../../styles/Post.module.css";
-
 import { useCurrentUser } from "../../contexts/CurrentUserContext";
 import { Card, Media, OverlayTrigger, Tooltip } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Avatar from "../../components/Avatar";
 import { axiosRes } from "../../api/axiosDefaults";
+import { MoreDropdown } from "../../components/MoreDropdown";
 
 const Post = (props) => {
   const {
@@ -69,7 +69,7 @@ const Post = (props) => {
           </Link>
           <div className="d-flex align-items-center">
             <span>{date_updated}</span>
-            {is_owner && postPage && "..."}
+            {is_owner && postPage && <MoreDropdown/>}
           </div>
         </Media>
       </Card.Body>
