@@ -91,7 +91,7 @@ function PostCreateForm() {
         <Form.Control
           as="textarea"
           rows={6}
-          name="description"
+          name="content"
           value={content}
           onChange={handleChange}
         />
