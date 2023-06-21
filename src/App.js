@@ -37,24 +37,24 @@ function App() {
             )} 
           />
            <Route 
-            exact 
-            path="/liked" 
-            render={() => (
-              <PostsPage 
-                message="Results not found. Please, refine the search keyword or like a post." 
-                filter={`likes__owner__profile=${profile_id}&ordering=-likes__date_created&`}
-              />
-            )} 
-          />
-          <Route exact path="/signin" render={() => <SignInForm />} />
-          <Route exact path="/signup" render={() => <SignUpForm />} />
-          <Route exact path="/posts/create" render={() => <PostCreateForm />} />
-          <Route exact path="/posts/:id" render={() => <PostPage />} />
-          <Route render={() => <p>Ohps, Page not found!</p>} />
-        </Switch>
-      </Container>
-    </div>
-  );
+             exact 
+             path="/liked" 
+             render={() => (
+               <PostsPage 
+                 message="Results not found. Please, refine the search keyword or like a post." 
+                 filter={`likes__owner__profile=${profile_id}&ordering=-likes__date_created&`}
+               />
+             )} 
+           />
+           <Route exact path="/signin" render={() => <SignInForm />} />
+           <Route exact path="/signup" render={() => <SignUpForm />} />
+           <Route exact path="/posts/create" render={() => <PostCreateForm />} />
+           <Route exact path="/posts/:id" render={() => <PostPage />} />
+           <Route render={() => <p>Ohps, Page not found!</p>} />
+         </Switch>
+       </Container>
+     </div>
+   );
 }
   
 export default App;
