@@ -36,14 +36,20 @@ function PostsPage({ message, filter = "" }) {
         };
 
         setHasLoaded(false);
-        fetchPosts();
-    }, [filter, pathname]);
+        const timer = setTimeout(() => {
+          fetchPosts();
+        }, 1000);
+
+        return () => {
+          clearTimeout(timer);
+        };
+    }, [filter, query, pathname]);
 
     return (
         <Row className="h-100">
             <Col className="py-2 p-0 p-lg-2" lg={8}>
                 <p>Popular profiles mobile</p>
-                <i className={`fas fa-search ${styles.SearchIcon}`} />
+                <i className={`fas fa-search-plus ${styles.SearchBarIcon}`} />
                 <Form
                   className={styles.SearchBar}
                   onSubmit={(event) => event.preventDefault()}
