@@ -2,6 +2,8 @@ import React from "react";
 import { Media } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Avatar from "../../components/Avatar";
+import { MoreDropdown } from '../../components/MoreDropdown';
+import { useCurrentUser } from '../../contexts/CurrentUserContext';
 import styles from "../../styles/Comment.module.css";
 
 const Comment = (props) => {
@@ -12,6 +14,9 @@ const Comment = (props) => {
     date_updated, 
     content, 
   } = props;
+
+  const currentUser = useCurrentUser();
+  const is_owner = currentUser?.username === owner;
 
   return (
     <div>
@@ -25,6 +30,9 @@ const Comment = (props) => {
           <span className={styles.Date}>{date_updated}</span>
           <p>{content}</p>
         </Media.Body>
+        {is_owner && (
+          <MoreDropdown handleEdit={() => {}} handleDelete={() => {}} />
+        )}
       </Media>
     </div>
   );
