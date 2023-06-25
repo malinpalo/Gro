@@ -33,3 +33,15 @@ export const followHelper = (profile, clickedProfile, following_id) => {
       // or the profile that the user owns
       profile;
 };
+
+export const unfollowHelper = (profile, clickedProfile) => {
+  return profile.id === clickedProfile.id
+  ? {
+    ...profile,
+    followers_count: profile.followers_count - 1,
+    following_id: null,
+  }
+: profile.is_owner
+? { ...profile, following_count: profile.following_count - 1 }
+: profile;
+}
