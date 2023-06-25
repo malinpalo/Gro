@@ -117,3 +117,8 @@ https://www.freeiconspng.com/
 - React-Bootstrap : The styling library that has aided to the layout of the site.
 - ReactJS : To build the components that would collectively form the front-end application.
 
+## Testing
+
+Please click [**_here_**](TESTING.md) to read more information about testing Gro Frontend
+
+[Back to top](<#table-of-contents>)
