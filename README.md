@@ -26,10 +26,9 @@ The project also utilises a Django Rest Framework web API, the repository are to
 - [Gro](#gro)
   * [Project goals](#project-goals)
   * [Table of contents](#table-of-contents)
-  * [User stories](#user-stories)
+  * [Agile methodology](#agile-methodology)
     + [User stories](#user-stories-1)
     + [Iterations](#iterations)
-  * [Agile development methodology](#agile-development-methodology)
   * [Planning](#planning)
     + [Wireframes](#wireframes)
     + [Data models](#data-models)
@@ -60,14 +59,7 @@ The project also utilises a Django Rest Framework web API, the repository are to
     + [Error messages](#error-messages)
     + [CRUD functionality](#crud-functionality)
     + [Future improvements and features](#future-improvements-and-features)
-
   * [Frameworks, libraries and dependencies](#frameworks-libraries-and-dependencies)
-    + [React-Router-DOM](#react-router-dom)
-    + [ReactDOM](#reactdom)
-    + [Axios](#axios)
-    + [JWT Decode](#jwt-decode)
-    + [React Bootstrap Icons](#react-bootstrap-icons)
-  
   * [Testing](#testing)
     + [Manual testing](#manual-testing)
     + [Validator testing](#validator-testing)
@@ -84,16 +76,44 @@ The project also utilises a Django Rest Framework web API, the repository are to
     + [Code](#code)
     + [Media](#media)
 
-## User stories
-User stories where made on an kanbanboard in GitHub. User stories where created in the initial design phase based on my wireframes.
+## Agile methodology
+The Agile Methodology was employed throughout this project based on user stories. A github issue was created for each user story. A github working board was created to keep track on the user stories and to organize the work. Milestones (Iterations) was created to represent the products backlog. All user stories were added to the backlog.
+
+### User stories 
+User stories where created in the initial design phase based on my wireframes.
 User stories required to implement each iteration were created. These were categorised according to whether they were 'must have' features required to implement a Minimum Viable Product (MVP). [Gro GitHub Issues](https://github.com/issues).
 
-
 ### Iterations
-Iterations where created to be able to organize userstories and time used for each user story. [Gro GitHub Epics](https://github.com/malinpalo?tab=projects).
+Milestones was created as Iterations to be able to organize userstories and time used for each user story. [Gro GitHub Iterations](https://github.com/malinpalo?tab=projects).
 
+## Planning
+### Wireframes:
+### Database Schema:
+This has been uploaded to the Backend README, which can be found [HERE](https://github.com/).
 
+## Design
+
+### Colours
+
+### Fonts
+
+## Features
+
+### Existing Features
+
+##### Header + NavBar + Search
+##### Logged In Header + NavBar + Search
 
 https://www.freeiconspng.com/
 
+## Frameworks, libraries and dependecies
+- Google Fonts : For the site fonts.
+- Font Awesome : To add icons to the NavBar, like and comments buttons.
+- Balsamiq : Was used to create mockups of the project prior to starting.
+- Am I Responsive? : To ensure the project looked good across all devices.
+- GitPod : To build the project & create the JSX & CSS files before pushing the project to Github.
+- GitHub : To store my repository for submission.
+- Django : Used to build the backend database that serves as an API for the front-end project.
+- React-Bootstrap : The styling library that has aided to the layout of the site.
+- ReactJS : To build the components that would collectively form the front-end application.
 

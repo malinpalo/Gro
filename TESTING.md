@@ -60,7 +60,7 @@ Google Lighthouse in Chrome Developer Tools was used to test the application wit
 
 * Home Page - Performance: 77, Accessibility: 95, Best Practises: 83, SEO: 100
 
-![Lighthouse Homepage Result](./src/assets/images/lighthouse-gro.png)
+![Lighthouse Homepage Result](images/lighthouse-gro.png)
 
 ### Peer Review
 
