@@ -47,11 +47,11 @@ function PostPage() {
         <Post {...post.results[0]} setPosts={setPost} postPage />
         <Container className={appStyles.Content}>{currentUser ? (
           <CommentCreateForm
-          profile_id={currentUser.profile_id}
-          profileImage={profile_image}
-          post={id}
-          setPost={setPost}
-          setComments={setComments}
+            profile_id={currentUser.profile_id}
+            profileImage={profile_image}
+            post={id}
+            setPost={setPost}
+            setComments={setComments}
           />
           ) : comments.results.length ? (
           "Comments"
