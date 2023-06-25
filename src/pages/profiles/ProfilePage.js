@@ -27,12 +27,13 @@ function ProfilePage() {
   const setProfileData = useSetProfileData();
   const { pageProfile } = useProfileData();
   const [profile] = pageProfile.results;
+  const is_owner = currentUser?.username === profile?.owner;
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         const [{ data: pageProfile  }] = await Promise.all([
-          axiosReq.get(`/profiles/${id}/`)
+          axiosReq.get(`/profiles/${id}/`),
         ]);
         setProfileData((prevState) => ({
           ...prevState,
@@ -73,8 +74,27 @@ function ProfilePage() {
             </Col>
           </Row>
         </Col>
+        <Col lg={3} className="text-lg-right">
+          {currentUser &&
+            !is_owner &&
+            (profile?.following_id ? (
+              <Button
+                className={`${btnStyles.Button} ${btnStyles.BlackOutline}`}
+                onClick={() => {}}
+              >
+                unfollow
+              </Button>
+            ) : (
+              <Button
+                className={`${btnStyles.Button} ${btnStyles.Black}`}
+                onClick={() => {}}
+              >
+                follow
+              </Button>
+            ))}
+        </Col>
         {profile?.content && <Col className="p-3">{profile.content}</Col>}
-      </Row>
+      </Row>  
     </>
   );
 
