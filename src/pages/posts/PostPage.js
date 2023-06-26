@@ -34,7 +34,7 @@ function PostPage() {
         setPost({ results: [post] });
         setComments(comments);
       } catch (err) {
-        console.log(err);
+        // console.log(err);
       }
     };
 
@@ -46,16 +46,17 @@ function PostPage() {
       <Col className="py-2 p-0 p-lg-2" lg={8}>
         <PopularProfiles mobile />
         <Post {...post.results[0]} setPosts={setPost} postPage />
-        <Container className={appStyles.Content}>{currentUser ? (
-          <CommentCreateForm
-            profile_id={currentUser.profile_id}
-            profileImage={profile_image}
-            post={id}
-            setPost={setPost}
-            setComments={setComments}
-          />
+        <Container className={appStyles.Content}>
+          {currentUser ? (
+            <CommentCreateForm
+              profile_id={currentUser.profile_id}
+              profileImage={profile_image}
+              post={id}
+              setPost={setPost}
+              setComments={setComments}
+            />
           ) : comments.results.length ? (
-          "Comments"
+            "Comments"
           ) : null}
           {comments.results.length ? (
             <InfiniteScroll
