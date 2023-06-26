@@ -15,15 +15,15 @@ The primary goals of the web app are to:
 This is the repository for the React frontend of Gro.
 The project also utilises a Django Rest Framework web API, backend.
 
+
+![](images/readme-images/responsiveness_gro.png)
+Follow the link:
+[Site view across devices](https://ui.dev/amiresponsive?url=https://3000-malinpalo-gro-4w7sopk0e5a.ws-eu100.gitpod.io/) to scroll on different devices.
+
 The live link for "Gro" can be found [HERE]()
 
 #### DEPLOYED BACKEND API [LINK]()
 #### DEPLOYED BACKEND [REPOSITORY]()
-
-
-![](images/responsiveness_gro.png)
-Follow the link:
-[Site view across devices](https://ui.dev/amiresponsive?url=https://3000-malinpalo-gro-4w7sopk0e5a.ws-eu100.gitpod.io/) to scroll on different devices.
 
 
 ## Table of contents
@@ -95,7 +95,7 @@ Milestones was created as Iterations to be able to organize userstories and time
 ## Planning
 ### Wireframes:
 ### Database Schema:
-This has been uploaded to the Backend README, which can be found [HERE](https://github.com/).
+This has been uploaded to the Backend README, which can be found [HERE](https://github.com/malinpalo/gro-drf#entity-realationship-diagram).
 
 ## Design
 
@@ -159,8 +159,10 @@ Once the user logs in additional links becomes avaliable for the user to select:
 
 #### Post List Page
 
-- Shows all the posts added by users.
-- Shows the heading of every post.
+- Displays all the posts added by users sorted by the latest posts first.
+- Date for when the post where added is displayed.
+- The feed festures infinite scrolling, as long as there is posts the user can scroll further.
+- Shows the heading and description of every post.
 - Likes/comments count are beeeing displayed.
 - Most followed users are being displayed.
 - The search bar where the user can search for other users or topics is beeing displayed under the navigation bar.
@@ -168,12 +170,10 @@ Once the user logs in additional links becomes avaliable for the user to select:
 ![Post List Page](images/readme-images/post_list_page.png)
 
 #### Logged in Post List Page
+Besides all the futures for a not logged in user Post List Page for logged in. usrs displays:
 
-- Shows all the posts added by users.
-- Shows the heading of every post.
 - Most followed users are being displayed together with follow/unfollow buttons for the in loggd user to use.
-- The search bar where the user can search for other users or topics is beeing displayed under the navigation bar.
-- The logged in user can choose to like/unlike a post or create a comment on a specific post.
+- The logged in user gets redirected to Post detail page if the user choose to like/unlike a post or create a comment on a specific post.
 
 ![Logged in post List Page](images/readme-images/post_list_page_li.png)
 

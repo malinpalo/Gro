@@ -64,6 +64,9 @@ Google Lighthouse in Chrome Developer Tools was used to test the application wit
 
 ### Peer Review
 
-## Known Bugs
+## Solved Bugs
+
+- Couldn't add text descriptions to my posts. Text descriptions written earlier, during development, didn't appear on the post. I went through the code in the files in the posts folder and corrected typos, changed content to descritption for exampel. 
+
 
 Please click [**_here_**](README.md) to return to the Gro README file.
