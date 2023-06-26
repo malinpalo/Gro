@@ -13,6 +13,7 @@
     * [Known Bugs](<#known-bugs>)
 
 
+
 ## Code Validation 
 
 The Gro site has been passed through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and the [ESLint Validator](https://eslint.org/docs/latest/use/getting-started#next-steps).
@@ -64,9 +65,15 @@ Google Lighthouse in Chrome Developer Tools was used to test the application wit
 
 ### Peer Review
 
-## Solved Bugs
+## Known Bugs
 
-- Couldn't add text descriptions to my posts. Text descriptions written earlier, during development, didn't appear on the post. I went through the code in the files in the posts folder and corrected typos, changed content to descritption for exampel. 
+### Solved 
+
+- Couldn't add text descriptions to my posts. Text descriptions written earlier, during development, didn't appear on the post. I went through the code in the files in the posts folder and corrected typos, changed the value content to descritption for exampel. 
+
+### Unresolved
+
+- When testing the site I realized that I couldn't edit the profiles 'About me section'. Due to submission deadline I didn't have time to solve the issue in time. I'll have to look in to that later on.
 
 
 Please click [**_here_**](README.md) to return to the Gro README file.

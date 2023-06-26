@@ -43,6 +43,7 @@ The live link for "Gro" can be found [HERE]()
     + [Navigation](#navigation)
     + [Logged in Navigation](#logged-in-navigation)
     + [Authentication](#authentication)
+    + [Post Create](#post-create)
     + [Post List page](#post-list-page)
     + [Logged in Post List page](#post-list-page)
     + [Post detail page](#post-detail-page)
@@ -51,20 +52,8 @@ The live link for "Gro" can be found [HERE]()
     + [Edit Profile](#edit-profile)
     + [Popular Profiles](#popular-profiles)
     + [Infinite Feed page](#infinite-feed-page)
+    + [Like - Liked entries](#like---liked-entries)
     + [Liked Posts page](#liked-posts-page)
-    + [Edit post and delete post buttons](#edit-event-and-delete-event-buttons)
-    + [Add contact form](#add-contact-form)
-    + [Search contacts form](#search-contacts-form)
-    + [Edit contact and delete contact buttons](#edit-contact-and-delete-contact-buttons)
-    + [Edit contact form](#edit-contact-form)
-
-    + [Popular Followers](#popular-followers)
-    + [Change password](#change-password)
-    + [Delete account](#delete-account)
-    + [Modal dialogs to confirm or cancel destructive actions](#modal-dialogs-to-confirm-or-cancel-destructive-actions)
-    + [Success messages](#success-messages)
-    + [Error messages](#error-messages)
-    + [CRUD functionality](#crud-functionality)
     + [Future improvements and features](#future-improvements-and-features)
   * [Frameworks, libraries and dependencies](#frameworks-libraries-and-dependencies)
   * [Testing](#testing)
@@ -158,6 +147,11 @@ Once the user logs in additional links becomes avaliable for the user to select:
 
 ![Sign In](images/readme-images/sign_in.png)
 
+#### Post Create page
+- A logged in user can create a post by clicking the 'add post' button in the nav bar, next to the logo.
+
+![Post Create page](images/readme-images/post_create.png)
+
 #### Post List Page
 
 - Displays all the posts added by users sorted by the latest posts first.
@@ -182,10 +176,10 @@ Besides all the futures for a not logged in user Post List Page for logged in. u
 
 - If the user are logged in and clicks on a specific post in the post page list the user gets redirected to the post detail page. 
 - Here the user gets the entire details of the post and can leave comments, edit or delete a comment.
-- This is where the post owner can edit or delete the post by entering the three dots menu on the right side of the post date.
+- This is where the post owner can edit or delete the post by entering the three dots menu on the right side of the post date. If the user clicks on the edit icon the user gets redirected to the post edit page.
 
 ![Post Detail Page](images/readme-images/post_detail_page.png)
-
+![](images/readme-images/edit_delete_posts.png)
 ![](images/readme-images/delete_edit_comments.png)
 
 #### Post Edit page
@@ -210,9 +204,40 @@ Besides all the futures for a not logged in user Post List Page for logged in. u
  ![Edit Profile](images/readme-images/profile_page_edit.png)
 
 #### Popular Profiles
-- 
+- Features the users with the most followers, to let other users easily find new interesting content on the site.
+- The popular profile page is responsive, displaying differently on smaller and larger screens. 
+- Clicking the follow button saves the posts added by that user in the feed section.
 
-![Popular profiles]()
+![Popular profiles small](images/readme-images/popular_profiles_small.png)
+
+![Popular profiles](images/readme-images/popular_profiles.png)
+
+#### Infinite Feed Page
+- works only if the user is logged in and are following another user.
+- The infinite feed page displays posts of other users that the owner is following.
+- If no posts is being displayed a 'no results found' message will appear.
+
+![Infinite Feed page](images/readme-images/feed.png)
+
+#### Like - Liked entries
+- A logged in user can like a post by clicking the heart icon under a post. The click will increase the likes count by one on a post and makes the heart go orange. 
+- The liked post will be (as mentioned earlier) saved in the users Liked page so that users easily can find their favourite posts again.
+
+  ![Liked](images/readme-images/liking.png)
+
+- If the user clicks the same heart again the likes count decreases by one and the heart will go grey.
+
+  ![Unliked](images/readme-images/unliking.png)
+
+- If the user tries to like their own post they will get notified by a message saying that they can't like their own posts.
+
+   ![Can't like your own](images/readme-images/not_like_own.png)
+
+#### Liked Posts page
+
+- Logged in users have the possibility to see the posts that they have liked when they click on the 'Liked' icon in the navigation bar.
+![Liked Posts page](images/readme-images/liked_posts_page.png)
+
 
 
 
