@@ -242,6 +242,7 @@ Besides all the futures for a not logged in user Post List Page for logged in. u
 - Add a contact page. That was initial created in the API but where to be deleted due to the time restrictions.
 - Add modals with alert messages when a user updates the app.
 - Add city as a location in the users profile page.
+- Add a jumbotron to welcome the user with a short description of the sites content.
 
 [Back to top](<#table-of-contents>)
 
