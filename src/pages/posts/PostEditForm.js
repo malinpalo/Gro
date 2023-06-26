@@ -21,11 +21,11 @@ function PostEditForm() {
 
   const [postData, setPostData] = useState({
     title: "",
-    content: "",
+    description: "",
     image: "",
   });
 
-  const { title, content, image } = postData;
+  const { title, description, image } = postData;
 
   const imageInput = useRef(null);
   const history = useHistory();
@@ -68,7 +68,7 @@ function PostEditForm() {
     const formData = new FormData();
 
     formData.append("title", title);
-    formData.append("content", content);
+    formData.append("description", description);
 
     if (imageInput?.current?.files[0]) {
       formData.append("image", imageInput.current.files[0]);
@@ -107,12 +107,12 @@ function PostEditForm() {
         <Form.Control
           as="textarea"
           rows={6}
-          name="content"
-          value={content}
+          name="descripton"
+          value={description}
           onChange={handleChange}
         />
       </Form.Group>
-      {errors?.content?.map((message, idx) => (
+      {errors?.description?.map((message, idx) => (
         <Alert variant="info" key={idx}>
           {message}
         </Alert>
