@@ -41,10 +41,10 @@ Follow the link:
     + [Typography](#typography)
   * [Features](#features)
     + [Navigation](#navigation)
-    + [Logged in navigation](#logged-in-navigation)
+    + [Logged in Navigation](#logged-in-navigation)
     + [Authentication](#authentication)
-
     + [Post List page](#post-list-page)
+    + [Logged in Post List page](#post-list-page)
     + [Post detail page](#post-detail-page)
     + [Post Edit page](#post-edit-page)
     + [Profile page](#profile-page)
@@ -157,6 +157,27 @@ Once the user logs in additional links becomes avaliable for the user to select:
 
 ![Sign In](images/readme-images/sign_in.png)
 
+#### Post List Page
+
+- Shows all the posts added by users.
+- Shows the heading of every post.
+- Likes/comments count are beeeing displayed.
+- Most followed users are being displayed.
+- The search bar where the user can search for other users or topics is beeing displayed under the navigation bar.
+
+![Post List Page](images/readme-images/post_list_page.png)
+
+#### Logged in Post List Page
+
+- Shows all the posts added by users.
+- Shows the heading of every post.
+- Most followed users are being displayed together with follow/unfollow buttons for the in loggd user to use.
+- The search bar where the user can search for other users or topics is beeing displayed under the navigation bar.
+- The logged in user can choose to like/unlike a post or create a comment on a specific post.
+
+![Logged in post List Page](images/readme-images/post_list_page_li.png)
+
+#### Post detail page
 
 
 
