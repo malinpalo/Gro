@@ -15,7 +15,6 @@ The primary goals of the web app are to:
 This is the repository for the React frontend of Gro.
 The project also utilises a Django Rest Framework web API, backend.
 
-
 ![](images/readme-images/responsiveness_gro.png)
 Follow the link:
 [Site view across devices](https://ui.dev/amiresponsive?url=https://3000-malinpalo-gro-4w7sopk0e5a.ws-eu100.gitpod.io/) to scroll on different devices.
@@ -55,7 +54,7 @@ The live link for "Gro" can be found [HERE]()
     + [Like - Liked entries](#like---liked-entries)
     + [Liked Posts page](#liked-posts-page)
     + [Future improvements and features](#future-improvements-and-features)
-  * [Components](#components)
+    + [Components](#components)
   * [Frameworks, libraries and dependencies](#frameworks-libraries-and-dependencies)
   * [Testing](#testing)
   * [Deployment](#deployment)
@@ -246,7 +245,7 @@ Besides all the futures for a not logged in user Post List Page for logged in. u
 
 [Back to top](<#table-of-contents>)
 
-## Components
+### Components
 Gro contains several implemented components that have been reused throughout the project:
 1. axiosDefault.js : for ease of communication with the backend API.
 2. Avatar.js : displays the users profile image.
@@ -256,6 +255,8 @@ Gro contains several implemented components that have been reused throughout the
 6. ProfileDataContext.js : provide un/follow ability to other users across Popular Profile & Profile Page components.
 7. useRedirect.js : a user gets redirected to another page if they are not authorised to be on the page they are trying to access.
 8. utils.js : supplies functionality to all of the components that utilise the Infinite Scroll function.
+
+[Back to top](<#table-of-contents>)
 
 ## Frameworks, libraries and dependecies
 
@@ -326,4 +327,11 @@ A Git clone creates a linked copy of the project that will continue to synchroni
 ## Credits
 
 ## Code
-## Media
+- The project is partly based on the Code Institute Moments turtorial, using some of the code provided there to build the foundations with additional styling added by me.
+
+## Acknowledgements
+- The tutor support team at Code Institute for their support.
+- My Code Institute mentor, Jubril Akolade.
+- The code Institute Slack community.
+- My husband for endless support and for standing out we me during these past intense months.
+- My cousin for 24hrs support. 
