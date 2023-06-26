@@ -34,7 +34,7 @@ The project also utilises a Django Rest Framework web API, the repository are to
     + [Data models](#data-models)
   * [Design](#design)
     + [Colours](#colours)
-    + [Fonts](#fonts)
+    + [Typography](#typography)
   * [Features](#features)
     + [Header + NavBar + Search](#header-+-navbar-+-search)
     + [Logged in Header + NavBar + Search](#logged-in-header-+-navbar-+-search)
@@ -94,28 +94,49 @@ This has been uploaded to the Backend README, which can be found [HERE](https://
 ## Design
 
 ### Colours
+I decided to incorporate a colorful approach for the site. This in order to make the content and detailed information throughout the site stand out better to the users.
+The colours choosen is following the colours in nature this is to make the user feel at home at this gardening platform.
 
-### Fonts
+![Colour Scheme](images/colour-scheme.png)
+
+### Typography
+
+Google Fonts Poppin font is used as the overall font for the project. This font is clear and delicate.
+San-Serif is used as a backup font for Poppins, just in case Poppins doesn't load.
+
+[Back to top](<#table-of-contents>)
 
 ## Features
+
 
 ### Existing Features
 
 ##### Header + NavBar + Search
 ##### Logged In Header + NavBar + Search
 
-https://www.freeiconspng.com/
+[Back to top](<#table-of-contents>)
 
 ## Frameworks, libraries and dependecies
-- Google Fonts : For the site fonts.
-- Font Awesome : To add icons to the NavBar, like and comments buttons.
-- Balsamiq : Was used to create mockups of the project prior to starting.
-- Am I Responsive? : To ensure the project looked good across all devices.
-- GitPod : To build the project & create the JSX & CSS files before pushing the project to Github.
-- GitHub : To store my repository for submission.
-- Django : Used to build the backend database that serves as an API for the front-end project.
-- React-Bootstrap : The styling library that has aided to the layout of the site.
-- ReactJS : To build the components that would collectively form the front-end application.
+
+- [ReactJS]() : To build the components that would collectively form the front-end application.
+- [React Bootstrap](https://react-bootstrap.github.io/): A CSS framework that helps build solid, responsive, mobile-first sites and has aided to the layout of the site.
+- [Django]() : Used to build the backend database that serves as an API for the front-end project.
+- [GitPod]() : To build the project & create the JSX & CSS files before pushing the project to Github.
+- [GitHub](): Used to host my repository and manage my project board maintaining user stories. 
+- [Heroku](https://en.wikipedia.org/wiki/Heroku) - A cloud platform that the application is deployed to.
+- [Cloudinary](https://cloudinary.com/) - A service that hosts image files in the project.
+- [Google Fonts]() : Used for the site fonts.
+- [Coolors](https://coolors.co/) : Used to create the colour palette.
+- [Font Awesome](https://fontawesome.com/) : To add icons to the NavBar, like and comments buttons.
+- [Freeiconspng]() : For the no-result and upload icon.
+- [Favicon](https://favicon.io/) - Used to create the favicon.
+- [Balsamiq](https://balsamiq.com/): Was used to create mockups of the project prior to starting.
+- [Am I Responsive?]() : Used for responsiveness check to ensure the project looked good across all devices.
+- [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) - Used to debug and test responsiveness during the whole development of the project.
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - Used to test site performance.
+- [JSHint Validation](https://jshint.com/) - Used to validate JavaScript code
+
+[Back to top](<#table-of-contents>)
 
 ## Testing
 

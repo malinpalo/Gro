@@ -58,9 +58,9 @@ Gro was tested on the following browsers:
 
 Google Lighthouse in Chrome Developer Tools was used to test the application within the areas of *Performance*, *Accessibility*, *Best Practices* and *SEO*. The testing showed the following:
 
-* Home Page - Performance: 77, Accessibility: 95, Best Practises: 83, SEO: 100
+* Home Page - Performance: 84, Accessibility: 95, Best Practises: 83, SEO: 100
 
-![Lighthouse Homepage Result](images/lighthouse-gro.png)
+![Lighthouse Homepage Result](images/ligthouse_gro.png)
 
 ### Peer Review
 
