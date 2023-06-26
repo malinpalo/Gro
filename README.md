@@ -55,19 +55,14 @@ The live link for "Gro" can be found [HERE]()
     + [Like - Liked entries](#like---liked-entries)
     + [Liked Posts page](#liked-posts-page)
     + [Future improvements and features](#future-improvements-and-features)
+  * [Components](#components)
   * [Frameworks, libraries and dependencies](#frameworks-libraries-and-dependencies)
   * [Testing](#testing)
-    + [Manual testing](#manual-testing)
-    + [Validator testing](#validator-testing)
-    + [W3C CSS validator](#w3c-css-validator)
-    + [ESLint JavaScript validator](#eslint-javascript-validator)
-    + [Lighthouse testing](#lighthouse-testing)
-    + [Resolved bugs](#resolved-bugs)
-    + [Unresolved bugs](#unresolved-bugs)
   * [Deployment](#deployment)
+    + [Connect React Frontend to the API backend](#connect-react-frontend-to-the-api-backend)
+    + [Deploying with Heroku](#deploying-with-heroku)
     + [Forking the GitHub Repository](#forking-the-github-repository)
     + [Making a Local Clone](#making-a-local-clone)
-    + [Deploying with Heroku](#deploying-with-heroku)
   * [Credits](#credits)
     + [Code](#code)
     + [Media](#media)
@@ -82,10 +77,14 @@ User stories required to implement each iteration were created. These were categ
 ### Iterations
 Milestones was created as Iterations to be able to organize userstories and time used for each user story. [Gro GitHub Iterations](https://github.com/malinpalo?tab=projects).
 
+[Back to top](<#table-of-contents>)
+
 ## Planning
 ### Wireframes:
 ### Database Schema:
 This has been uploaded to the Backend README, which can be found [HERE](https://github.com/malinpalo/gro-drf#entity-realationship-diagram).
+
+[Back to top](<#table-of-contents>)
 
 ## Design
 
@@ -93,7 +92,7 @@ This has been uploaded to the Backend README, which can be found [HERE](https://
 I decided to incorporate a colorful approach for the site. This in order to make the content and detailed information throughout the site stand out better to the users.
 The colours choosen is following the colours in nature this is to make the user feel at home at this gardening platform.
 
-![Colour Scheme](images/colour-scheme.png)
+![Colour Scheme](images/readme-images/colour-scheme.png)
 
 ### Typography
 
@@ -118,8 +117,8 @@ For first time visitors, the user is logged out and the following menu items are
 - Home - the first menu item and the initial default start page. This is where all the posts of the users are beeing displayed.
 - Authentication - the following two menu items are the sign in and sign up icons that takes the usesrs to the respective pages.
 
-![NavBar](images/navbar.png)
-![NavBar BurgerMenu](images/navbar_bm.png)
+![NavBar](images/readme-images/navbar.png)
+![NavBar BurgerMenu](images/readme-images/navbar_bm.png)
 
 [Back to top](<#table-of-contents>)
 
@@ -131,8 +130,8 @@ Once the user logs in additional links becomes avaliable for the user to select:
 - Liked - The liked page, where the logged in users can view all the posts that they have liked.
 - Authentication - The icons within the authentication change once a user has logged in and displays a link to sign out of the site. 
 
-![NavBar, logged in](images/navbar-logged_in.png)
-![NavBar BurgerMenu logged in](images/navbar_logged_in_bm.png)
+![NavBar, logged in](images/readme-images/navbar-logged_in.png)
+![NavBar BurgerMenu logged in](images/readme-images/navbar_logged_in_bm.png)
 
 
 [Back to top](<#table-of-contents>)
@@ -238,27 +237,40 @@ Besides all the futures for a not logged in user Post List Page for logged in. u
 - Logged in users have the possibility to see the posts that they have liked when they click on the 'Liked' icon in the navigation bar.
 ![Liked Posts page](images/readme-images/liked_posts_page.png)
 
+### Future improvements and features
 
+- Add a contact page. That was initial created in the API but where to be deleted due to the time restrictions.
+- Add modals with alert messages when a user updates the app.
+- Add city as a location in the users profile page.
 
+[Back to top](<#table-of-contents>)
 
-
-
-
-
-
+## Components
+Gro contains several implemented components that have been reused throughout the project:
+1. axiosDefault.js : for ease of communication with the backend API.
+2. Avatar.js : displays the users profile image.
+3. Asset.js : to supply the loading spinner & an image throughout the site.
+4. MoreDropdown.js : to allow users to edit/delete features via a dropdown menu.
+5. CurrentUserContext.js : confirm users logged-in status to determine what functionality is available to that user.
+6. ProfileDataContext.js : provide un/follow ability to other users across Popular Profile & Profile Page components.
+7. useRedirect.js : a user gets redirected to another page if they are not authorised to be on the page they are trying to access.
+8. utils.js : supplies functionality to all of the components that utilise the Infinite Scroll function.
 
 ## Frameworks, libraries and dependecies
 
-- [ReactJS]() : To build the components that would collectively form the front-end application.
+- [ReactJS](https://reactjs.org/) : To build the components that would collectively form the front-end application.
 - [React Bootstrap](https://react-bootstrap.github.io/): A CSS framework that helps build solid, responsive, mobile-first sites and has aided to the layout of the site.
-- [Django]() : Used to build the backend database that serves as an API for the front-end project.
-- [GitPod]() : To build the project & create the JSX & CSS files before pushing the project to Github.
-- [GitHub](): Used to host my repository and manage my project board maintaining user stories. 
+- [Axios](https://axios-http.com/) - Promise based HTTP client for the browser and node.js. Used to make HTTP requests from throughout the application.
+- [jwt-decode](https://github.com/auth0/jwt-decode) - Used to decode and extract information from a JWT token.
+- [react-router-dom](https://www.npmjs.com/package/react-router-dom) - Routing library for the React Javascript library. Used to display different components based on the URL entered in the browser.
+- [GitPod](https://www.gitpod.io/) : Git was used for version control, using the terminal to commit to Git and Push to GitHub
+- [GitHub](https://github.com/): Used to host my repository and manage my project board maintaining user stories. 
 - [Heroku](https://en.wikipedia.org/wiki/Heroku) - A cloud platform that the application is deployed to.
 - [Cloudinary](https://cloudinary.com/) - A service that hosts image files in the project.
 - [Google Fonts]() : Used for the site fonts.
 - [Coolors](https://coolors.co/) : Used to create the colour palette.
-- [Unsplash](https://unsplash.com/)
+- [Unsplash](https://unsplash.com/) : Used for the images in the project.
+- [Iloveimg](https://www.iloveimg.com/) : Used to rezise images.
 - [Font Awesome](https://fontawesome.com/) : To add icons to the NavBar, like and comments buttons.
 - [Freeiconspng]() : For the no-result and upload icon.
 - [Favicon](https://favicon.io/) - Used to create the favicon.
@@ -275,3 +287,42 @@ Besides all the futures for a not logged in user Post List Page for logged in. u
 Please click [**_here_**](TESTING.md) to read more information about testing Gro Frontend
 
 [Back to top](<#table-of-contents>)
+
+## Deployment
+### Deploying to Heroku
+Once you have created a new gitpod workspace and set up the new project, you are ready to deploy to Heroku. 
+
+1. In your heroku account, select Create New App, and give it a unique name related to your project. 
+2. Select a region corresponding to where you live and click 'Create App'.
+3. Head into the 'Deploy' tab select GitHub as the 'deployment method', find your project repository and click 'Connect'.
+4. Click 'Deploy branch' to trigger Heroku to start building the application. 
+5. Once you see the message saying 'build succeeded' you can click 'Open App' to see your application in the browser.
+
+### Connect React Frontend to the API backend
+
+Once you have set up the workspace and done a basic deploy to Heroku, in order to send data to the API, you can connect the react workspace to your API.
+
+1. In the Heroku dashboard, go into the API application settings
+2. In 'Settings' add a new Config Var called 'CLIENT_ORIGIN' and set that to the URL for your deployed React application. In my case, this would be [https://gro-pp5.herokuapp.com](https://gro-pp5.herokuapp.com).
+3. Then add another Config Var called 'CLIENT_ORIGIN_DEV' and enter the URL of your Gitpod preview link, remembering to remove the trailing slash at the end. Gitpod occasionally changes this URL so keep an eye on it, as you are working on your project. 
+4. Go back into your frontend Gitpod workspace, and install the Axios library using the command 'npm install axios'.
+5. Create a folder called 'API' and inside it create a file called 'axiosDefaults'.
+6. Import axios at the top of the file
+7. Define your baseURL which is the unique URL of your deployed API project. In my case this would be [https://gro-drf.herokuapp.com/](https://gro-drf.herokuapp.com/)
+8. Set the content-type header to multi-part/form-data as the API will need to deal with images as well as text in it's requests.
+9. In order to avoid any CORS issues, set withCredentials to True.
+10. Import this file into App.js to be used across all pages
+
+### Forking the GitHub 
+Yes, It is possible to make an independent copy of a GitHub Repository by forking the GitHub account. After forking the copy be viewed and it is also possible to make changes in the copy without affecting the original repository. To fork the repository, follow these steps:
+
+1. After logging in to GitHub, locate the repository. On the top right side of the page there is a 'Fork' button. Click on the button to create a copy of the original repository.
+
+### Making a Local Clone
+
+A Git clone creates a linked copy of the project that will continue to synchronize with the original repository. In order to create a clone, you can click on the 'Code' button inside the selected repository and then select the 'Clone' option from the dropdown list. 
+
+## Credits
+
+## Code
+## Media
