@@ -177,7 +177,33 @@ Besides all the futures for a not logged in user Post List Page for logged in. u
 
 ![Logged in post List Page](images/readme-images/post_list_page_li.png)
 
-#### Post detail page
+#### Post Detail page
+
+- If the user are logged in and clicks on a specific post in the post page list the user gets redirected to the post detail page. 
+- Here the user gets the entire details of the post and can leave comments, edit or delete a comment.
+- This is where the post owner can edit or delete the post by entering the three dots menu on the right side of the post date.
+
+![Post Detail Page](images/readme-images/post_detail_page.png)
+
+![](images/readme-images/delete_edit_comments.png)
+
+#### Post Edit page
+
+- Provides the capability to update an existing post with title, description and image.
+
+![Post Edit Page](images/readme-images/post_edit_page.png)
+
+#### Profile page
+ - The profile page can be reached by clicking the avatar icon or username in the navigation bar.
+ - The user can view their own posts, add info about them self and add a profile image. They can see how many posts they have made, how many other users that they are following and how many users that are following the profile owner. 
+ - Clicking the dropdown menu lets the user edit their username, passworg and info.
+
+![Profile page](images/readme-images/profile_page.png)
+
+
+
+
+
 
 
 
@@ -192,6 +218,7 @@ Besides all the futures for a not logged in user Post List Page for logged in. u
 - [Cloudinary](https://cloudinary.com/) - A service that hosts image files in the project.
 - [Google Fonts]() : Used for the site fonts.
 - [Coolors](https://coolors.co/) : Used to create the colour palette.
+- [Unsplash](https://unsplash.com/)
 - [Font Awesome](https://fontawesome.com/) : To add icons to the NavBar, like and comments buttons.
 - [Freeiconspng]() : For the no-result and upload icon.
 - [Favicon](https://favicon.io/) - Used to create the favicon.
