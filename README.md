@@ -49,6 +49,7 @@ The live link for "Gro" can be found [HERE]()
     + [Post Edit page](#post-edit-page)
     + [Profile page](#profile-page)
     + [Edit Profile](#edit-profile)
+    + [Popular Profiles](#popular-profiles)
     + [Infinite Feed page](#infinite-feed-page)
     + [Liked Posts page](#liked-posts-page)
     + [Edit post and delete post buttons](#edit-event-and-delete-event-buttons)
@@ -56,7 +57,7 @@ The live link for "Gro" can be found [HERE]()
     + [Search contacts form](#search-contacts-form)
     + [Edit contact and delete contact buttons](#edit-contact-and-delete-contact-buttons)
     + [Edit contact form](#edit-contact-form)
-    + [My Profile](#my-profile)
+
     + [Popular Followers](#popular-followers)
     + [Change password](#change-password)
     + [Delete account](#delete-account)
@@ -195,10 +196,24 @@ Besides all the futures for a not logged in user Post List Page for logged in. u
 
 #### Profile page
  - The profile page can be reached by clicking the avatar icon or username in the navigation bar.
- - The user can view their own posts, add info about them self and add a profile image. They can see how many posts they have made, how many other users that they are following and how many users that are following the profile owner. 
- - Clicking the dropdown menu lets the user edit their username, passworg and info.
+ 
+ ![Profile page](images/readme-images/profile_page.png)
 
-![Profile page](images/readme-images/profile_page.png)
+- For smaller screens the owners profile can be found in the navigations bars burger menu.
+![Profile page Dropdown menu](images/readme-images/profile_page_burger.png)
+
+ - The user can view their own posts, add info about them self and add a profile image. They can see how many posts they have made, how many other users that they are following and how many users that are following the profile owner. 
+ - This profile page is still under development. In a near future new features like "City" will be provided to all users. You can already see that feature in the "gro-drf" API.
+
+#### Edit Profile
+- Clicking the dropdown menu lets the user edit their username, password and info.
+ ![Edit Profile](images/readme-images/profile_page_edit.png)
+
+#### Popular Profiles
+- 
+
+![Popular profiles]()
+
 
 
 
