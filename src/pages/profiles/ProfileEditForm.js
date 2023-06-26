@@ -42,7 +42,7 @@ const ProfileEditForm = () => {
           const { name, description, image } = data;
           setProfileData({ name, description, image });
         } catch (err) {
-          console.log(err);
+          // console.log(err);
           history.push("/");
         }
       } else {
@@ -78,7 +78,7 @@ const ProfileEditForm = () => {
       }));
       history.goBack();
     } catch (err) {
-      console.log(err);
+      // console.log(err);
       setErrors(err.response?.data);
     }
   };
