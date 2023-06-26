@@ -3,7 +3,7 @@
 
 
 ## Project goals
-Gro is social network plattform designed for plant loving users around Gothenburg. 
+Gro is a social network platform designed for plant loving users around Gothenburg. 
 The primary goals of the web app are to:
 
 1) Provide plant lovers a place to meet up on the net to share thoughts, ideas and knowledge about plants and gardening.
