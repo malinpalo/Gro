@@ -64,7 +64,7 @@ The live link for "Gro" can be found [HERE]()
     + [Making a Local Clone](#making-a-local-clone)
   * [Credits](#credits)
     + [Code](#code)
-    + [Media](#media)
+    + [Acknowledgements](#acknowledgements)
 
 ## Agile methodology
 The Agile Methodology were employed throughout this project based on user stories. A github issue was created for each user story. A github working board was created to keep track on the user stories and to organize the work. Milestones (Iterations) was created to represent the products backlog. All user stories were added to the backlog.
@@ -269,15 +269,16 @@ Gro contains several implemented components that have been reused throughout the
 - [GitHub](https://github.com/): Used to host my repository and manage my project board maintaining user stories. 
 - [Heroku](https://en.wikipedia.org/wiki/Heroku) - A cloud platform that the application is deployed to.
 - [Cloudinary](https://cloudinary.com/) - A service that hosts image files in the project.
-- [Google Fonts]() : Used for the site fonts.
+- [Google Fonts](https://fonts.google.com/) : Used for the site fonts.
 - [Coolors](https://coolors.co/) : Used to create the colour palette.
 - [Unsplash](https://unsplash.com/) : Used for the images in the project.
 - [Iloveimg](https://www.iloveimg.com/) : Used to rezise images.
 - [Font Awesome](https://fontawesome.com/) : To add icons to the NavBar, like and comments buttons.
-- [Freeiconspng]() : For the no-result and upload icon.
+- [Freeiconspng](https://www.freeiconspng.com/) : For the no-result and upload icon.
 - [Favicon](https://favicon.io/) - Used to create the favicon.
 - [Balsamiq](https://balsamiq.com/): Was used to create mockups of the project prior to starting.
-- [Am I Responsive?]() : Used for responsiveness check to ensure the project looked good across all devices.
+- [Responsive Design Checker](https://www.responsivedesignchecker.com/) Used to check for responsiveness on more devices than Am I responsive could check
+- [Am I responsive](https://ui.dev/amiresponsive) - Used to check for responsiveness on different devices on the same time
 - [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) - Used to debug and test responsiveness during the whole development of the project.
 - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - Used to test site performance.
 - [JSHint Validation](https://jshint.com/) - Used to validate JavaScript code
@@ -326,10 +327,10 @@ A Git clone creates a linked copy of the project that will continue to synchroni
 
 ## Credits
 
-## Code
+### Code
 - The project is partly based on the Code Institute Moments turtorial, using some of the code provided there to build the foundations with additional styling added by me.
 
-## Acknowledgements
+### Acknowledgements
 - The tutor support team at Code Institute for their support.
 - My Code Institute mentor, Jubril Akolade.
 - The code Institute Slack community.

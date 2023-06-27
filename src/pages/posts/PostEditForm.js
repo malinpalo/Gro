@@ -107,13 +107,13 @@ function PostEditForm() {
         <Form.Control
           as="textarea"
           rows={6}
-          name="descripton"
-          value={description}
+          name="description"
+          defaultValue={description}
           onChange={handleChange}
         />
       </Form.Group>
-      {errors?.description?.map((message, idx) => (
-        <Alert variant="info" key={idx}>
+      {errors?.content?.map((message, idx) => (
+        <Alert variant="warning" key={idx}>
           {message}
         </Alert>
       ))}
