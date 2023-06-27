@@ -6,7 +6,7 @@
 Gro is a social network platform designed for plant loving users around Gothenburg. 
 The primary goals of the web app are to:
 
-1) Provide plant lovers a place to meet up on the net to share thoughts, ideas and knowledge about plants and gardening.
+1) Provide plant lovers a place to meet up online to share thoughts, ideas and knowledge about plants and gardening.
 
 2) Deliver a simple and intuitive user experience, suitable for users in all ages. 
 
@@ -67,14 +67,14 @@ The live link for "Gro" can be found [HERE]()
     + [Media](#media)
 
 ## Agile methodology
-The Agile Methodology was employed throughout this project based on user stories. A github issue was created for each user story. A github working board was created to keep track on the user stories and to organize the work. Milestones (Iterations) was created to represent the products backlog. All user stories were added to the backlog.
+The Agile Methodology were employed throughout this project based on user stories. A github issue was created for each user story. A github working board was created to keep track on the user stories and to organize the work. Milestones (Iterations) was created to represent the products backlog. All user stories were added to the backlog.
 
 ### User stories 
-User stories where created in the initial design phase based on my wireframes.
+User stories were created in the initial design phase based on my wireframes.
 User stories required to implement each iteration were created. These were categorised according to whether they were 'must have' features required to implement a Minimum Viable Product (MVP). [Gro GitHub Issues](https://github.com/issues).
 
 ### Iterations
-Milestones was created as Iterations to be able to organize userstories and time used for each user story. [Gro GitHub Iterations](https://github.com/malinpalo?tab=projects).
+Milestones were created as Iterations to be able to organize userstories and time used for each user story. [Gro GitHub Iterations](https://github.com/malinpalo?tab=projects).
 
 [Back to top](<#table-of-contents>)
 
@@ -89,7 +89,7 @@ This has been uploaded to the Backend README, which can be found [HERE](https://
 
 ### Colours
 I decided to incorporate a colorful approach for the site. This in order to make the content and detailed information throughout the site stand out better to the users.
-The colours choosen is following the colours in nature this is to make the user feel at home at this gardening platform.
+The colours chosen are following the colours in nature. This is to make the user feel at home at this gardening platform.
 
 ![Colour Scheme](images/readme-images/colour-scheme.png)
 
@@ -101,20 +101,20 @@ San-Serif is used as a backup font for Poppins, just in case Poppins doesn't loa
 [Back to top](<#table-of-contents>)
 
 ## Features
-The futures are split in two parts: One for logged in users and one for logged out users as follows.
+The features are split in two parts: One for logged in users and one for logged out users as follows.
  
 
 ### Existing Features
 
 #### Navigation
 
-The navigation bar is clean and straightforward. The menu changes wheter you are a logged in or logged out user. For tablet and mobile devices, the navigation barmenu becomes a hamburger dropdown menu.
+The navigation bar is clean and straightforward. The menu changes whether you are a logged in or logged out. For tablet and mobile devices, the navigation bar menu becomes a hamburger dropdown menu.
 
 For first time visitors, the user is logged out and the following menu items are visible:
 
 - Gro Logo - is situated far out on the users left hand side. The logo is visible throughout the whole site to all user types.
 - Home - the first menu item and the initial default start page. This is where all the posts of the users are beeing displayed.
-- Authentication - the following two menu items are the sign in and sign up icons that takes the usesrs to the respective pages.
+- Authentication - the following two menu items are the sign in and sign up icons that take the usesrs to the respective pages.
 
 ![NavBar](images/readme-images/navbar.png)
 ![NavBar BurgerMenu](images/readme-images/navbar_bm.png)
@@ -141,7 +141,7 @@ Once the user logs in additional links becomes avaliable for the user to select:
 
 ![Sign Up](images/readme-images/sign_up.png)
 
-- Sign In - If a user already have a Gro user account, they can either click on the sign in menu option in the navigation bar or follow the link below the sign up form.
+- Sign In - If users already have a Gro user account, they can either click on the sign in menu option in the navigation bar or follow the link below the sign up form.
 
 ![Sign In](images/readme-images/sign_in.png)
 
