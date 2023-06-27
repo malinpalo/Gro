@@ -80,6 +80,12 @@ Milestones were created as Iterations to be able to organize userstories and tim
 
 ## Planning
 ### Wireframes:
+The wireframes for the site were created in the software [Balsamiq](https://balsamiq.com).
+The wireframe were created as a first design foundation and have been developed during the project, no new wireframes have been created, so the wireframes layout won't bee exactly the same as in the layout for the finished project.
+ 
+![Wireframes](images/readme-images/home-pp5.png)
+![Wireframes](images/readme-images/home-pp5-mobile.png)
+
 ### Database Schema:
 This has been uploaded to the Backend README, which can be found [HERE](https://github.com/malinpalo/gro-drf#entity-realationship-diagram).
 
