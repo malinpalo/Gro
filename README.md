@@ -325,6 +325,8 @@ Yes, It is possible to make an independent copy of a GitHub Repository by forkin
 
 A Git clone creates a linked copy of the project that will continue to synchronize with the original repository. In order to create a clone, you can click on the 'Code' button inside the selected repository and then select the 'Clone' option from the dropdown list. 
 
+[Back to top](<#table-of-contents>)
+
 ## Credits
 
 ### Code
@@ -336,3 +338,5 @@ A Git clone creates a linked copy of the project that will continue to synchroni
 - The code Institute Slack community.
 - My husband for endless support and for standing out we me during these past intense months.
 - My cousin for 24hrs support. 
+
+[Back to top](<#table-of-contents>)

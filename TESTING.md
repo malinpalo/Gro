@@ -10,18 +10,25 @@
     * [Manual Testing](<#manual-testing>)
     * [Responsiveness Testing](<#responsiveness-testing>)
     * [Lighthouse Testing](<#lighthouse-testing>)
+    * [Peer Review](#peer-review)
     * [Known Bugs](<#known-bugs>)
 
 ## Code Validation 
 
-The Gro site has been passed through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and the [ESLint Validator](https://eslint.org/docs/latest/use/getting-started#next-steps).
+The Gro site has been passed through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 ### W3C CSS Validation Results
 
-No errors or warnings were found when the deployed Happening URL was passed through the W3C CSS Validation checker.
+No errors or warnings were found when the deployed Gro URL was passed through the W3C CSS Validation checker.
 
 ![W3C CSS Validation](images/css-no-errors.jpg)
 
+### ESLint Validation Results
+
+I didn't have time to validate with ESLint.
+I was running out of time due to timerestrictions because of submission.
+
+[Back to top](<#table-of-contents>)
 
 ## Automatic Testing
 
@@ -33,6 +40,8 @@ The following Jest automatic tests have been written to check that the main fron
 | Renders NavBar signIn link| &check; |
 | Renders link to the profile of a logged in user | &check; |
 | Renders sign in/sign out buttons for logged out user | &check; |
+
+[Back to top](<#table-of-contents>)
 
 ## Manual Testing
 
@@ -247,6 +256,8 @@ As well as the automatic tests, I checked all the user story scenarios with manu
 | &check; | The use redirect hook redirects the user as expected where used.
 | &check; | The use click outside hook let the user close the navbar hamburger menu when clicking outside of it.
 
+[Back to top](<#table-of-contents>)
+
 ## Responsiveness Testing
 
 Google Chrome Dev Tools was used throughout the build to manually test for The responsive design. I based the main design around a desktop view, as the site is primarily a browser based platform, although I have added responsive design for tablet and mobile devices as well. 
@@ -285,6 +296,8 @@ Gro was tested on the following browsers:
 - Microsoft Edge
 - Mozilla Firefox
 
+[Back to top](<#table-of-contents>)
+
 ## Lighthouse Testing
 
 Google Lighthouse in Chrome Developer Tools was used to test the application within the areas of *Performance*, *Accessibility*, *Best Practices* and *SEO*. The testing showed the following:
@@ -293,8 +306,12 @@ Google Lighthouse in Chrome Developer Tools was used to test the application wit
 
 ![Lighthouse Homepage Result](images/readme-images/ligthouse_gro.png)
 
-### Peer Review
+[Back to top](<#table-of-contents>)
+
+## Peer Review
 Friends and family created profiles and interacted with the site. The overall response were very good and they love to use the platform over and over again.
+
+[Back to top](<#table-of-contents>)
 
 ## Known Bugs
 
@@ -310,9 +327,6 @@ Friends and family created profiles and interacted with the site. The overall re
 
 - When users are logged out/in they can't search for a particular post by typing in the username of the post owner. The users recives a 'results not found' message. Due to submission deadline I didn't have time to solve the issue in time. I'll have to look in to that later on.
 
-
-
-
-
+[Back to top](<#table-of-contents>)
 
 Please click [**_here_**](README.md) to return to the Gro README file.
