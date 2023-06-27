@@ -21,7 +21,7 @@ The Gro site has been passed through the [W3C CSS Validator](https://jigsaw.w3.o
 
 No errors or warnings were found when the deployed Gro URL was passed through the W3C CSS Validation checker.
 
-![W3C CSS Validation](images/css-no-errors.jpg)
+![W3C CSS Validation](images/readme-images/w3c_css.png)
 
 ### ESLint Validation Results
 
