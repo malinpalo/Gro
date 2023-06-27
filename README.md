@@ -19,7 +19,7 @@ The project also utilises a Django Rest Framework web API, backend.
 Follow the link:
 [Site view across devices](https://ui.dev/amiresponsive?url=https://3000-malinpalo-gro-4w7sopk0e5a.ws-eu100.gitpod.io/) to scroll on different devices.
 
-The live link for "Gro" can be found [HERE]()
+The live link for "Gro" can be found [HERE](https://gro-pp5.herokuapp.com)
 
 #### DEPLOYED BACKEND API [LINK](https://gro-drf.herokuapp.com/)
 #### DEPLOYED BACKEND [REPOSITORY](https://github.com/malinpalo/gro-drf)
